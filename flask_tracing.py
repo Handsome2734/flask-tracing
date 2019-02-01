@@ -40,4 +40,4 @@ class Tracing(object):
         pass
 
     def hook(self, response):
-        response.headers['X-Request-ID'] = self.get_request_id()
+        response.headers['X-Request-ID'] = get_request_id()
