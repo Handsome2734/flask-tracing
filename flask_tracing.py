@@ -41,3 +41,4 @@ class Tracing(object):
 
     def hook(self, response):
         response.headers['X-Request-ID'] = get_request_id()
+        return response

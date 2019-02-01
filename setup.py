@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Tracing',
-    version='0.3',
+    version='0.3.1',
     url='https://github.com/Handsome2734/Flask-Tracing',
     license='BSD',
     author='Handsome2734',
