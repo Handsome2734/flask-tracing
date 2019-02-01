@@ -15,7 +15,7 @@ def generate_request_id(original_id=''):
     return new_id
 
 
-def get_request_id(self):
+def get_request_id():
     """Get current request id in session."""
     if 'request_id' not in g:
         original_id = request.headers.get('x-request-id')
